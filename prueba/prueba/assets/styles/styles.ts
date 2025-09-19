@@ -58,6 +58,7 @@ export const styles = StyleSheet.create({
 
     pokemonContainer: {
         padding: 30,
+        gap: 10,
         flex: 1,
     },
     pokemonText: {
@@ -75,14 +76,14 @@ export const styles = StyleSheet.create({
     pokemonButtonAddFavorite:{
         padding: 10,
         backgroundColor: '#558CED',
+        borderRadius: 6,
         width: 'auto',
-        margin: 20
     },
     pokemonButtonRemoveFavorite:{
         padding: 10,
         backgroundColor: '#ef3054',
+        borderRadius: 6,
         width: 'auto',
-        margin: 20
     },
 
     // Not Found styles:

@@ -22,11 +22,11 @@ export function Pokemon({ pokemon } : { pokemon: DataPokemon }) {
             savedPokemon.some((listPokemon: DataPokemon) => listPokemon.name === pokemon.name) 
             ? 
             <TouchableOpacity style={styles.pokemonButtonRemoveFavorite} onPress={() => removePokemon(pokemon)}>
-                <Text style={styles.pokemonText}>Remove pokemon</Text>
+                <Text style={[styles.pokemonText, {textAlign: 'center'}]}>Remove pokemon</Text>
             </TouchableOpacity>
             :
             <TouchableOpacity style={styles.pokemonButtonAddFavorite} onPress={() => addPokemon(pokemon)}>
-                <Text style={styles.pokemonText}>Add pokemon to the favourite list</Text>
+                <Text style={[styles.pokemonText, {textAlign: 'center'}]}>Add pokemon to the favourite list</Text>
             </TouchableOpacity>
             }<ScrollView contentContainerStyle={styles.pokemonScrollView} horizontal>
                 {pokemon.imgs.map((url, index) => {

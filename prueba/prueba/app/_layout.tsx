@@ -7,7 +7,7 @@ export default function RootLayout() {
   return (
     
     <PokemonFavorite>
-      <SafeAreaView style={{flex: 1, backgroundColor: '#01112fff'}}>
+      <SafeAreaView style={{flex: 1, backgroundColor: '#222'}}>
       <NavBar />
       </SafeAreaView>
     </PokemonFavorite>

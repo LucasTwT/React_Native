@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Nombre del Proyecto
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Proyecto sencillo en react native con expo en el cual se hace
+   - LLamada a una API
+   - Componetización de la APP
+   - Uso de hooks
+      - useContext y createContext
+      - reducers 
+      - useEffect
+      - etc...
 
-## Get started
+## Objetivo:
 
-1. Install dependencies
+Crear una app para que el usuario pueda buscar pokemon y tener una lista de favoritos (temporal)
+---
 
-   ```bash
-   npm install
-   ```
+##  Tecnologías usadas
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ⚙️ Instalación y ejecución
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. Clonar el repositorio
 ```bash
-npm run reset-project
+git clone https://github.com/tuusuario/tu-proyecto.git
+cd tu-proyecto
+```
+2. Instalar dependencias
+```bash
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+o
+```bash
+yarn install
+```
 
-## Learn more
+3. Ejecutar en Expo
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📱 Para probar en móvil: instalar la app Expo Go (Android/iOS) y escanear el QR.
 
-## Join the community
+💻 Para emulador: usar Android Studio o Xcode.
 
-Join our community of developers creating universal apps.
+📂 Estructura del proyecto
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+app/
+ ├─ (tabs)/
+ │   ├─ index.tsx     # Pantalla principal
+ │   ├─ Favorites.tsx # Pantalla de favoritos
+ ├─ _layout.tsx   # Navegación de pestañas
+ ├─ context/
+ ├    ├─ pokemon.tsx # contexto entre las paginas
+ ├─ reducers/
+ ├    ├─  useListFavorites # states de la app
+ ├─ services/
+ ├   ├─ usePokemon.ts # hook para el fetching de datos
+ ├─ types.d.ts # archivo de tipos
+ assets/              # Imágenes, iconos, etc.
+ components/
+   ├─ Filter.tsx # c. para el dropdown picker
+   ├─ NavBar.tsx #  c. para la la barra de navegación
+   ├─ NotFound.tsx # c. para cuando la API no devuelve nada
+   ├─ Pokemon.tsx # c. para cuando la API devuelve datos
+   ├─ PokemonSearch.tsx # c. del buscador
+ package.json
+ README.md
+```
+
+🖼️ Capturas del proyecto:
+
+<img src="./assets/images/IMG_Readme_Index_Page.png">
+<img src="./assets/images/IMG_Readme_ListFavorites.png">

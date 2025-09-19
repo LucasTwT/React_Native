@@ -18,7 +18,7 @@ export  function NavBar() {
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: "",
+        tabBarActiveTintColor: "white",
         tabBarInactiveTintColor: "gray",
         tabBarStyle: {
           backgroundColor: "#222",
