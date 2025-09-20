@@ -76,5 +76,7 @@ app/
 
 🖼️ Capturas del proyecto:
 
-<img src="./assets/images/IMG_Readme_Index_Page.png">
-<img src="./assets/images/IMG_Readme_ListFavorites.png">
+<p align="center">
+  <img src="./assets/images/IMG_Readme_Index_Page.png" width="45%">
+  <img src="./assets/images/IMG_Readme_ListFavorites.png" width="45%">
+</p>
