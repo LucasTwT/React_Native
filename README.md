@@ -1,5 +1,19 @@
-# Proyectos de React Native y expo
+# APP clasificación con IA [En Proceso]
 
-## Listado de los proyectos:
+Proyecto un poco mas complejo:
 
-1. <a href="/prueba/prueba">App Pokemons</a> App sencilla de pokemons 
+## Front: 
+    - React native
+    - Expo
+
+## Back:
+    - Python
+    - FastAPI
+    - PyTorch
+    - Docker
+
+## Objetivo:
+
+Crear una app en la cual los usuarios puedan utilizar la cámara de su movil para hacer una foto y que una IA la analice y la clasifique 
+---
+

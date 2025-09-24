@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# APP pokemons
 
 Proyecto sencillo en react native con expo en el cual se hace
    - LLamada a una API
