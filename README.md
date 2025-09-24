@@ -1,19 +1,4 @@
-# APP clasificación con IA [En Proceso]
+# Proyectos de React Native y expo
 
-Proyecto un poco mas complejo:
-
-## Front: 
-    - React native
-    - Expo
-
-## Back:
-    - Python
-    - FastAPI
-    - PyTorch
-    - Docker
-
-## Objetivo:
-
-Crear una app en la cual los usuarios puedan utilizar la cámara de su movil para hacer una foto y que una IA la analice y la clasifique 
----
-
+1. <a href="/prueba/">App Pokemons</a> App sencilla de pokemons 
+2. <a href="/Reconocimiento_De_Enfermedades_En_Plantas/">App Pokemons</a> App sencilla de pokemons 
